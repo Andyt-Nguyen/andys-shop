@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import MiniNav from './MiniNav';
 import './Mac.css';
+import { Link } from 'react-router-dom';
 
 class MacPage extends Component {
 
@@ -73,7 +74,7 @@ class MacPage extends Component {
 						MacBook Air even wakes up fast, thanks to SSD storage and
 						fifth-generation Intel Core processors.
 						</p>
-						<button className="btn btn-white">Buy Now</button>
+						<Link to="/mac/buy" className="btn btn-white">Buy Now</Link>
 					</div>
 				</section>
 			</div>

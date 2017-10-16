@@ -1,0 +1,52 @@
+.mac-buy {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mac-buy-title {
+	margin-bottom: 50px;
+}
+
+.mac-processor {
+	display: flex;
+	justify-content: space-between;
+	width: 650px;
+}
+
+.mac-processor-title {
+	margin-top: 100px;
+}
+
+.mac-processor-desc {
+	margin-bottom: 50px;
+}
+
+.mac-price {
+	margin-top: 40px;
+}
+
+.mac-select {
+	width: 200px;
+	background: #0d7ad8;
+	color: white;
+}
+
+.mac-processor-container {
+	/*border-right: 1px solid #ccc;*/
+	padding-right: 10px;
+}
+
+.mac-delivery {
+	margin-top: 30px;
+	display: flex;
+}
+
+.deliv-desc {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	padding-left: 10px;
+}

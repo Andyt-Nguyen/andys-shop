@@ -1,12 +1,15 @@
 import React from 'react';
 import Main from './Components/Main';
 import NavBar from './Components/NavBar';
+import Footer from './Components/Footer';
 import './index.css';
+
 const App = () => (
 	<div>
 	  <NavBar />
 		<div>
-		<Main />
+			<Main />
+			<Footer />
 		</div>
 	</div>
 );

@@ -1,5 +1,16 @@
+const app = require('./server');
+const db = app.get('db');
+
 module.exports = {
-	getApp(req, res) {
-		
+	getProducts(req, res) {
+
+	},
+
+	addProduct(req, res) {
+
+	},
+
+	deleteProduct(req ,res) {
+
 	}
 }

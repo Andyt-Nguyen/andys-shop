@@ -1,0 +1,27 @@
+.shipping {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 30px;
+}
+
+.bag-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+.shopping-list {
+	display: flex;
+	/*justify-content: space-around;*/
+	border: 2px solid red;
+	width: 100%;
+}
+
+.title-item {
+	font-size: 15px;
+}
+
+.shopping-details {
+	display: flex;
+	border:2px solid green;
+	width: 100%;
+	justify-content: space-around;
+}

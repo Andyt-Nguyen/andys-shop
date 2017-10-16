@@ -9,9 +9,9 @@ const App = () => (
 	  <NavBar />
 		<div>
 			<Main />
-			<Footer />
 		</div>
 	</div>
 );
 
 export default App;
+// <Footer />

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+.MacPage {
+	font-family: 'Roboto', sans-serif;
+	height: 1200px;
+}
+
+.mini-nav {
+	height: 60px;
+	transition: 0.4s;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.mac-title-container {
+	/*border: 2px solid green;*/
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.mac-title{
+	margin: 0;
+	padding: 0;
+}
+
+.mac-mini-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 100%;
+	background: white;
+}
+
+.side-title {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	width: 15%;
+	color: black;
+}
+
+.side-title p{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sticky {
+	height: 50px;
+	padding-bottom: 10px;
+	left:0;
+	top: 0;
+	position: fixed;
+	background: white;
+	width: 100%;
+	opacity: .8;
+	justify-content: space-around;
+}
+
+.grey-border {
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 50px;
+}
+
+
+
+.mac-statement {
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mac-statement h1{
+	font-weight: 700;
+	font-size: 5rem;
+	color: black;
+}
+
+.mac-statement h3{
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: black;
+}
+
+.para{
+	font-size: 1.5rem;
+	color: #656565;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.mac-desc {
+	margin-top: 100px;
+	margin-bottom: 150px;
+	/*border: 2px solid red;*/
+	text-align: center;
+	width: 65%;
+	color: #676767;
+	line-height: 33px;
+}
+
+.mac-desc__width {
+	width: 50%;
+	color: black;
+}
+
+
+.thin-light {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: #fafafa;
+	margin-bottom: 160px;
+}
+
+.thin-light-title {
+	margin-top: 100px;
+}
+
+.wifi-sect {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.wifi-desc {
+	line-height: 32px;
+	margin-top: 10px;
+	color: #676767;
+}
+
+
+.ssd-bg {
+	height: 750px;
+	background-image: url('http://notebooks.wpengine.netdna-cdn.com/wp-content/uploads/2010/10/MacBookAir2.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.ssd-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+.ssd-title {
+	margin-top: 100px;
+}
+
+.ssd-desc-width {
+	width: 50%;
+	line-height: 34px;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn-white {
+	color: white;
+	border: 2px solid white;
+	background: black;
+}

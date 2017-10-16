@@ -5,7 +5,9 @@ import './index.css';
 const App = () => (
 	<div>
 	  <NavBar />
+		<div>
 		<Main />
+		</div>
 	</div>
 );
 

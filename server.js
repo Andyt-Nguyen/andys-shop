@@ -2,7 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const massive = require('massive');
 const path = require('path');
-const connectionString= "......";
+const keys = require('./config/keys');
+const connectionString= keys.connectionString;
 const app = module.exports = express();
 
 app.use(bodyParser.json());
@@ -17,8 +18,7 @@ const mainCtrl = require('./mainCtrl');
 
 
 app.get('/api/products', mainCtrl.getProducts);
-app.post('/api/products', mainCtrl.postProduct);
+app.post('/api/products', mainCtrl.addProduct);
 app.delete('/api/products', mainCtrl.deleteProduct);
 
-const port = process.env.PORT || 5000;
-app.listen(port, () => console.log(`The server is running on ${port}`));
+app.listen(keys.port, () => console.log(`The server is running on ${keys.port}...`));
